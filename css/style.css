@@ -1,0 +1,157 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	justify-content: center;
+	background-color: rgba(0,0,255,0.07);
+	padding-bottom: 7%;
+}
+main{
+	display: flex;
+	justify-content: center;
+}
+header{
+	border: 2px solid black;
+	width: 100%;
+	top:0;
+	position: sticky;
+	font-size: 1.7em;
+}
+
+footer{
+	border: 2px solid black;
+	width: 100%;
+	bottom: 0px;
+	font-size: 0.7em;
+	position: fixed;
+}
+
+.backColor{
+	background-color: #02194E;
+	color: white;
+	font-style: italic;
+}
+
+.busqueda{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	justify-content: center;
+	width: 100%;
+}
+
+.imgCarrito{
+	width: 200px;
+	height: 100px;
+	align-self: flex-end;
+}
+
+
+.btn{
+	border-color: #AA8E52;
+	padding: 10px;
+	background: #AA8E39;
+	border-width: 4px;
+	border-radius: 20px;
+	font-family:Verdana,Helvetica;
+	font-style: italic;
+}
+
+.btnBorrar:hover{
+	background-color:rgba(255,0,0,0.7);
+}
+
+.btnEnviar:hover{
+	background-color:rgba(0,255,0,0.5);
+}
+
+
+.cmpDato{
+	border-color: blue;
+	border-radius: 20px;
+	padding: 10px;
+	border-width: 4px;
+	font-style: italic;
+}
+
+.error{
+	font-size: 1.2em;
+	color: red;justify-content: center;
+}
+.red{
+	border-color: red;
+}
+.blue{
+	border-color: blue;
+}
+
+ul{
+	list-style-type: none;
+list-style-position: inside;
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	border: 4px solid black;
+	width: 500px;
+	box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+             background-color: white;
+}
+
+ol{
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+ol li{
+	margin-top: 1em;
+	list-style: none;
+	margin-top: 1em;
+	font-size: 1.2em;
+	width: 200px;
+	overflow: auto;
+	text-align: center;
+}
+
+.line-throughItem{
+	text-decoration: line-through;
+	color: red;
+}
+
+.container{
+	justify-content: center;
+}
+
+.mt-5{
+	margin-top: 5em;
+}
+.mt-4{
+	margin-top: 4em;
+}
+.mt-3{
+	margin-top: 3em;
+}
+.mt-2{
+	margin-top: 2em;
+}
+.mt-1{
+	margin-top: 1em;
+}
+
+.bi{
+	margin-left: 1em;
+	font-size: 1.2em;
+}
+
+.btnBorrar{
+	padding-left: 2em;
+	padding-right: 2em;
+	margin-bottom: 1em;
+}
